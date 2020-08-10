@@ -1,0 +1,33 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51195",
+      "sslPort": 44345
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "Vault": "https://udemy-key-vault.vault.azure.net/",
+        "ClientSecret": "Xsr8mu-Kv4_R55b-IK19NSk85~__t1KD-.",
+        "ClientId": "8d5818d9-df43-4f20-8c69-756c26329b7c",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "ProcedimientosAlmacenadosAPInetCore": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
